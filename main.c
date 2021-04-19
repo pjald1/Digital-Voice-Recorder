@@ -1,35 +1,3 @@
-/**
- * main.c - EGB240 Digital Voice Recorder Skeleton Code
- *
- * This code provides a skeleton implementation of a digital voice 
- * recorder using the Teensy microcontroller and QUT TensyBOBv2 
- * development boards. This skeleton code demonstrates usage of
- * the EGB240DVR library, which provides functions for recording
- * audio samples from the ADC, storing samples temporarily in a 
- * circular buffer, and reading/writing samples to/from flash
- * memory on an SD card (using the FAT file system and WAVE file
- * format. 
- *
- * This skeleton code provides a recording implementation which 
- * samples CH0 of the ADC at 8-bit, 15.625kHz. Samples are stored 
- * in flash memory on an SD card in the WAVE file format. The 
- * filename is set to "EGB240.WAV". The SD card must be formatted 
- * with the FAT file system. Recorded WAVE files are playable on 
- * a computer.
- * 
- * LED4 on the TeensyBOBv2 is configured to flash as an 
- * indicator that the programme is running; a 1 Hz, 50 % duty
- * cycle flash should be observed under normal operation.
- *
- * A serial USB interface is provided as a secondary control and
- * debugging interface. Errors will be printed to this interface.
- *
- * Version: v1.0
- *    Date: 10/04/2016
- *  Author: Mark Broadmeadow
- *  E-mail: mark.broadmeadow@qut.edu.au
- */  
-
  /************************************************************************/
  /* INCLUDED LIBRARIES/HEADER FILES                                      */
  /************************************************************************/
